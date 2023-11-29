@@ -9,6 +9,10 @@ header{
 h1{
     font-family: 'Foldit', sans-serif;    
 }
+p{
+    padding: 10px;;
+}
+
     nav {
     background-color: #a3a3a302;
     padding: 10px;
