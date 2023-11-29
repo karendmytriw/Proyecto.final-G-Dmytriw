@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content ="width=device-width" , initial-scale="1.0">
+        <title>Mi tienda</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@300;487&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+    <h1>Antilope indumentaria</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <nav class="dropdown" data-bs-theme="bg-dark">       
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+        <a class="btn btn-sm btn-outline-secondary" aria-labelledby="dropdownMenuButtonDark" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+        <a class="btn btn-sm btn-outline-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Artículos</a>
+        <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                <li><a class="dropdown-item" href="#">Blusas</a></li>
+                <li><a class="dropdown-item" href="#">Vestidos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Ofertas</a></li>
+        </ul>
+            </li>
+            <li class="nav-item">
+        <a class="btn btn-sm btn-outline-secondary" href="/trabajofinal/contacto.html">Contactate</a>
+            </li>
+        </ul>
+    </nav>   
+</header>
+
+<main>
+    <h2 class="info">Sobre nosotros</h2>
+    <p>¡Bienvenido a Antilope indumentaria! Explora nuestra colección exclusiva de moda y estilo. En Antilope indumentaria, nos enorgullece ofrecerte las últimas tendencias en ropa y accesorios de alta calidad. Desde elegantes vestidos hasta cómodos pantalones, cada artículo está cuidadosamente seleccionado para brindarte el máximo estilo y comodidad.</p>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/carrusel1.jpg" class="d-block w-100" alt="Ropa colgada">
+        </div>
+        <div class="carousel-item">
+            <img src="img/c4.jpg" class="d-block w-100" alt="Ropa en maniquis">
+        </div>
+        <div class="carousel-item">
+            <img src="img/c3.jpg" class="d-block w-100" alt="Ropa colgada 2">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <h2 class = "articulos">Artículos mas vendidos</h2>
+
+
+    <section class="productos-grid">
+    
+    <div class="productos" style="width: 18rem;">
+        <img src="img/jeans.jpg" class="card-img-top" alt="jeans">
+        <div class="card-body">
+        <h5 class="card-title"> Jeans Mom</h5>
+        <p class="card-text">Rigido del talle 36 al 60</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a>
+        </div>
+    </div>
+    <div class = "productos" style="width: 18rem;">
+        <img src="img/top.jpg" class="card-img-top" alt="top de colores">
+        <div class="card-body">
+        <h5 class="card-title">Top</h5>
+        <p class="card-text">Talle unico. Disponible en naranja, blanco, rojo y verde</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a>
+    </div>
+    </div>
+    <div class = "productos" style="width: 18rem;">
+        <img src="img/topdep.jpg" class="card-img-top" alt="top deportivo">
+        <div class="card-body">
+        <h5 class="card-title">Top deportivo</h5>
+        <p class="card-text">Talle 85 al 120. Disponible en verde militar, beige y blanco</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a> 
+    </div>
+    </div>
+        <div class = "productos"  style="width: 18rem;">
+            <img src="img/jeans2.jpg" class="card-img-top" alt="jeans elastizados">
+            <div class="card-body">
+            <h5 class="card-title">Jeans elastizado </h5>
+        <p class="card-text">Talles 36 al 60. Super elastizados y varios colores.</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a>
+    </div>
+</div>
+
+    <div class = "productos"style="width: 18rem;">
+        <img src="img/body.jpg" class="card-img-top" alt="bodys colgados">
+        <div class="card-body">
+        <h5 class="card-title">Body</h5>
+
+        <p class="card-text">Talle 1 al 6. Disponible en 5 colores.</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a> </div>
+    
+    </div>
+    <div class = "productos"style="width: 18rem;">
+        <img src="img/buzo.jpg" class="card-img-top" alt="buzos colgados">
+        <div class="card-body">
+        <h5 class="card-title">Buzos rusticos</h5>
+
+        <p class="card-text">Ideales para la noche. Talle 1 al 6.</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a> </div>
+    
+    </div>
+    <div class = "productos"style="width: 18rem;">
+        <img src="img/musculosas.jpg" class="card-img-top" alt="musculosas cuello">
+        <div class="card-body">
+        <h5 class="card-title">Musculosa lanilla</h5>
+
+        <p class="card-text">Talle 1 al 3. Disponible en 3 colores.</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a> </div>
+    
+    </div>
+    <div class = "productos"style="width: 18rem;">
+        <img src="img/corpiños.jpg" class="card-img-top" alt="corpiños deportivos">
+        <div class="card-body">
+        <h5 class="card-title">Top deportivo</h5>
+
+        <p class="card-text">Talle 1 al 5. Disponible en 6 colores.</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a> </div>
+    
+    </div>
+    <div class = "productos"style="width: 18rem;">
+        <img src="img/basica.jpg" class="card-img-top" alt="remera basica">
+        <div class="card-body">
+        <h5 class="card-title">Remera básica</h5>
+
+        <p class="card-text">Talle 1 al 10. Disponible en 3 colores.</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a> </div>
+    
+    </div>
+    <div class = "productos"style="width: 18rem;">
+        <img src="img/saco.jpg" class="card-img-top" alt="sacos colgados">
+        <div class="card-body">
+        <h5 class="card-title">Sacos lanilla</h5>
+
+        <p class="card-text">Talle 1 al 3. Disponible en 3 colores.</p>
+        <a href="#" class="btn btn-outline-secondary">Comprar</a> </div>
+    
+    </div>
+    </section>
+
+    
+    <aside>
+        <div>
+            <h2>¡Oferta Especial!</h2>
+    <p>Ahorra un 20% en tu primera compra ingresando el código <strong>ANTILOPE2023</strong>.</p>
+        </div>
+    </aside>
+<footer> Trabajo final 2023 PFE. Todos los derechos reservados.</footer>
+</main>
+
+
+    </body>
+    </html>
