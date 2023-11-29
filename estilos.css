@@ -31,6 +31,8 @@ a.nav-link {
 .info{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 5px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .carousel-item img {
     height: 500px;
