@@ -120,7 +120,7 @@ margin: 10px;
     }
     .dropdown-menu {
         width: 100%;
-        text-align: left; /* Alinea el texto a la izquierda */
+        text-align: left; 
     }
 }
 @media only screen and (max-width: 400px) {
